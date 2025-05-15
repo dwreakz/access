@@ -2,7 +2,7 @@
 
 import sys
 import time
-from config       import load_config, save_config
+from config       import Config
 from rfid_reader  import RFIDReader
 from hw_control   import HWControl
 import gui
@@ -111,7 +111,7 @@ class AccessStateMachine:
 
 def main():
     # Load and initialize everything
-    cfg     = load_config('config.json')
+    cfg     = Config.load('config.json')
     reader  = RFIDReader()
     hw      = HWControl(cfg)
     machine = AccessStateMachine(cfg, reader, hw)
