@@ -37,6 +37,6 @@
   ],
   "settings": {
     "enroll_timeout_s": 30,
-    "relay_pulse_ms": 500
+    "relay_pulse_ms": 5000
   }
 }

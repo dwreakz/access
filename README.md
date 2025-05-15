@@ -1,13 +1,14 @@
 # RFID Access Control System
 
-This is an RFID-based access control system designed for Raspberry Pi that allows you to manage multiple doors using RFID tags for authentication.
+This is an RFID-based access control system designed for Raspberry Pi 
+that allows you to manage multiple doors using RFID tags for authentication.
 
 ## Features
 
 - Control multiple doors with RFID authentication
 - User-friendly GUI interface with status display
 - Enrollment mode for adding/removing RFID tags
-- Command-line options for quick administration
+- Command-line options for quick deployment 
 - Configuration stored in JSON format
 
 ## System Components
@@ -41,3 +42,5 @@ This is an RFID-based access control system designed for Raspberry Pi that allow
 ### Normal Operation
 
 Run the system with:
+
+python main.py

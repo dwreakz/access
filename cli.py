@@ -1,4 +1,5 @@
-# cli.py - simplified version
+# cli.py
+
 import argparse
 import threading
 
