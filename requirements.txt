@@ -1,3 +1,5 @@
 adafruit-blinka
 adafruit-circuitpython-pn532
 RPi.GPIO
+RPi.GPIO>=0.7.0
+adafruit-circuitpython-pn532>=1.2.0

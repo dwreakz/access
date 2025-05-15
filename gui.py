@@ -49,5 +49,5 @@ def stop():
     global _window
     if _window:
       _window.quit()
-      _window.destory()
+      _window.destroy()
       _window = None
