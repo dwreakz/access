@@ -1,0 +1,42 @@
+{
+  "master_tag": "825D1516",
+  "doors": [
+    {
+      "name": "Door1",
+      "relay_pin": 17,
+      "button_pin": 18,
+      "allowed_tags": [
+        "E293B501"
+      ]
+    },
+    {
+      "name": "Door2",
+      "relay_pin": 27,
+      "button_pin": 22,
+      "allowed_tags": [
+        "472B4D05"
+      ]
+    },
+    {
+      "name": "GarageDoor",
+      "relay_pin": 23,
+      "button_pin": 4,
+      "allowed_tags": [
+        "D2AB1916",
+        "02DE7439"
+      ]
+    },
+    {
+      "name": "BackDoor",
+      "relay_pin": 25,
+      "button_pin": 5,
+      "allowed_tags": [
+        "8AEF7439"
+      ]
+    }
+  ],
+  "settings": {
+    "enroll_timeout_s": 30,
+    "relay_pulse_ms": 500
+  }
+}

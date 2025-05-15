@@ -1,0 +1,13 @@
+
+# Python artifacts
+__pycache__/
+*.pyc
+
+# Virtual enviorments
+venv/
+
+# Log files
+access.log
+
+# IDE settings
+.vscode/
