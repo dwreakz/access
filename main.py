@@ -91,6 +91,8 @@ class AccessStateMachine:
             print(f"GRANTED on: {door_names}")
             for idx, _ in allowed:
                 self.hw.unlock(idx, self.cfg.relay_pulse_ms)
+            time.sleep(5)
+            gui.update('IDLE')
         else:
             gui.update('DENIED')
             print(f"DENIED for tag {tag}")
