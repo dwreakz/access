@@ -18,16 +18,15 @@
       ]
     },
     {
-      "name": "GarageDoor",
+      "name": "Door3",
       "relay_pin": 23,
       "button_pin": 4,
       "allowed_tags": [
-        "D2AB1916",
         "02DE7439"
       ]
     },
     {
-      "name": "BackDoor",
+      "name": "Door4",
       "relay_pin": 25,
       "button_pin": 5,
       "allowed_tags": [
